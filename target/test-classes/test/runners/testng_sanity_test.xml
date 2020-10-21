@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hotels Sanity Suite">
+	<test name="Hotels Sanity Tests">
+
+		<classes>
+
+			<class name="com.qa.hotels.tests.HomePageTest">
+
+				<methods>
+
+					<include name="verifyPageTitle" />
+					<include name="selectDestination" />
+
+				</methods>
+
+			</class>
+			
+			<class name="com.qa.hotels.tests.HiltonHotelsInCincinnatiTest">
+
+				<methods>
+
+					<include name="verifyPageTitle" />
+					<include name="hiltonHotelsWithThreeStars" />
+
+				</methods>
+
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

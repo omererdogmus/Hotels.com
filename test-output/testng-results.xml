@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hotels Regression Suite" duration-ms="26621" started-at="2020-10-21T12:26:36 EDT" finished-at="2020-10-21T12:27:02 EDT">
+    <groups>
+    </groups>
+    <test name="Hotels Regression Tests" duration-ms="26621" started-at="2020-10-21T12:26:36 EDT" finished-at="2020-10-21T12:27:02 EDT">
+      <class name="com.qa.hotels.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotels.tests.HomePageTest@226f885f]" name="setUp" is-config="true" duration-ms="3002" started-at="2020-10-21T12:26:36 EDT" finished-at="2020-10-21T12:26:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.qa.hotels.tests.HomePageTest@226f885f]" name="verifyPageTitle" duration-ms="389" started-at="2020-10-21T12:26:39 EDT" description="verify page title" finished-at="2020-10-21T12:26:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotels.tests.HomePageTest@226f885f]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-10-21T12:26:39 EDT" finished-at="2020-10-21T12:26:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotels.tests.HomePageTest@226f885f]" name="setUp" is-config="true" duration-ms="2127" started-at="2020-10-21T12:26:39 EDT" finished-at="2020-10-21T12:26:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectDestination()[pri:2, instance:com.qa.hotels.tests.HomePageTest@226f885f]" name="selectDestination" duration-ms="20727" started-at="2020-10-21T12:26:41 EDT" description="destination handling" finished-at="2020-10-21T12:27:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDestination -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotels.tests.HomePageTest@226f885f]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-10-21T12:27:02 EDT" finished-at="2020-10-21T12:27:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hotels.tests.HomePageTest -->
+    </test> <!-- Hotels Regression Tests -->
+  </suite> <!-- Hotels Regression Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hotels Regression Suite]">
+  <listeners>
+    <listener class-name="com.qa.hotels.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Hotels Regression Tests(failed)">
+    <classes>
+      <class name="com.qa.hotels.tests.HomePageTest">
+        <methods>
+          <include name="selectDestination"/>
+          <include name="tearDown"/>
+          <include name="verifyPageTitle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hotels.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Hotels Regression Tests(failed) -->
+</suite> <!-- Failed suite [Hotels Regression Suite] -->

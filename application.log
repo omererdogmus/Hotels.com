@@ -1,0 +1,8 @@
+2020-10-21 12:26:39,258  INFO [main] HomePageTest:42 - starting title method -------------------> verify home page
+2020-10-21 12:26:39,601  INFO [main] HomePageTest:46 - ending title method -------------------> verify home page
+2020-10-21 12:26:39,601  WARN [main] HomePageTest:47 - No warning
+2020-10-21 12:26:39,601 ERROR [main] HomePageTest:48 - No error
+2020-10-21 12:26:41,834  INFO [main] HomePageTest:55 - starting destination method -------------------> verify home page
+2020-10-21 12:27:02,557  INFO [main] HomePageTest:57 - ending destination method -------------------> verify home page
+2020-10-21 12:27:02,557  WARN [main] HomePageTest:58 - No warning
+2020-10-21 12:27:02,558 ERROR [main] HomePageTest:59 - No error

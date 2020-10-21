@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hotels Regression Suite" thread-count="2" parallel="tests">
+
+	<listeners>
+		
+		<listener class-name="com.qa.hotels.listeners.ExtentReportListener" />
+		
+	</listeners>
+	
+	<test name="Hotels Regression Tests -- firefox" thread-count="3" parallel="classes">
+	
+	<parameter name="browser" value="firefox"/>
+		<classes>
+		
+			<class name="com.qa.hotels.tests.HomePageTest"/>
+			<class name="com.qa.hotels.tests.HiltonHotelsInCincinnatiTest"/>
+			
+		</classes>
+		
+	</test> <!-- Test -->
+	<test name="Hotels Regression Tests -- chrome" thread-count="3" parallel="classes">
+	
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.qa.hotels.tests.HomePageTest"/>
+			<class name="com.qa.hotels.tests.HiltonHotelsInCincinnatiTest"/>
+			
+		</classes>
+		
+		
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
